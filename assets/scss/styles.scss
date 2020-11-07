@@ -220,7 +220,6 @@ img{
     }
 
     &__img{
-        position: absolute;
         right: 0;
         bottom: 0;
         width: 295px;
@@ -240,7 +239,14 @@ img{
         box-shadow: 0px 10px 36px rgba(0,0,0,.15);
     }
 }
-
+/* ===== Image position change - Made by Shubham =====*/
+.move-me {
+width: 100px;
+height: 100px;
+background-color:blue;
+position: relative;
+top: 100px;
+}
 /* ===== ABOUT =====*/
 .about{
     &__container{
@@ -386,7 +392,6 @@ img{
 /* ===== MEDIA QUERIES=====*/
 @media screen and(min-width: 768px){
     body{
-        margin: 0;
     }
     .section{
         padding-top: 4rem;
